@@ -1,5 +1,8 @@
 # Silent Speech
 
+For local, motion-only phrase training and a frozen final test, use the
+[dedicated phrase study](docs/local-phrase-study.md).
+
 This personal research fork adds an [offline Subvox matcher comparison](docs/subvox-comparison.md)
 and a [public-recording benchmark reproduction](docs/public-reproduction.md).
 The original recognition pipeline is unchanged. Personal recordings and reports

@@ -1,0 +1,28 @@
+name: PhraseMotionBridge
+options:
+  bundleIdPrefix: com.martechia
+  developmentLanguage: en
+targets:
+  PhraseMotionBridge:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: Sources
+    settings:
+      base:
+        PRODUCT_NAME: PhraseMotionBridge
+        PRODUCT_BUNDLE_IDENTIFIER: com.martechia.PhraseMotionBridge
+        MARKETING_VERSION: "0.1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_VERSION: "6.0"
+        SWIFT_STRICT_CONCURRENCY: complete
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+        ONLY_ACTIVE_ARCH: "YES"
+        ENABLE_DEBUG_DYLIB: "NO"
+        INFOPLIST_FILE: Info.plist
+        GENERATE_INFOPLIST_FILE: "NO"
+        CODE_SIGN_STYLE: Manual
+        CODE_SIGN_IDENTITY: "-"
+        ENABLE_HARDENED_RUNTIME: "NO"
+        ENABLE_APP_SANDBOX: "NO"
