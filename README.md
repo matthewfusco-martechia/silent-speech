@@ -1,5 +1,10 @@
 # Silent Speech
 
+This personal research fork adds an [offline Subvox matcher comparison](docs/subvox-comparison.md)
+and a [public-recording benchmark reproduction](docs/public-reproduction.md).
+The original recognition pipeline is unchanged. Personal recordings and reports
+stay local; the upstream project and its original documentation follow below.
+
 **Talk to your Mac without making a sound.**
 
 Wear your AirPods and mouth a sentence with no sound. The motion sensor inside the AirPods feels your jaw move,

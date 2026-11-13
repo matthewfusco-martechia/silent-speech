@@ -14,3 +14,5 @@ DerivedData/
 .pytest_cache/
 *.egg-info/
 *.log
+# Local, unpublished recordings and analysis. Never put personal captures in data/raw/.
+.local-research/
